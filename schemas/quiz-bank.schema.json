@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://local.dsh/lecture-to-obsidian/quiz-bank.schema.json",
+  "$id": "https://local.dsh/lecture-to-study/quiz-bank.schema.json",
   "title": "题库 JSON v1",
   "description": "严格对齐 C:\\Users\\epiph\\Documents\\Obsidian\\细胞生物学和组织学\\刷题工具\\题库格式规范.md（该库 status: verified，规则来自前端实际校验）。产物必须能被 刷题工具/开始刷题.html 直接导入判分。规范明确「额外未知字段不执行且不保留」，故不擅自扩展字段。",
   "type": "object",

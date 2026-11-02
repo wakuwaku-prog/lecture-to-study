@@ -1,4 +1,4 @@
-# lecture-to-obsidian
+# lecture-to-study
 
 把已经整理好的**课堂素材**变成能学的东西：**AI 讲解**（Obsidian md 为唯一真源，单文件 HTML 按需派生）+ **课后考题**（对话即时判分 / md 折叠答案 / 可导入题库的 JSON，**三形态同源**）+ **跨层质量门**。
 
@@ -45,7 +45,7 @@ better-awesome-sjtu-canvas-ppt                    本 skill
 两个 skill 并排放在 DSH 的 skills 目录下（本机为 `~/.dsh/skills/<name>/`）：
 
 ```bash
-git clone <this repo> ~/.dsh/skills/lecture-to-obsidian
+git clone <this repo> ~/.dsh/skills/lecture-to-study
 git clone <better repo> ~/.dsh/skills/better-awesome-sjtu-canvas-ppt
 ```
 
@@ -65,7 +65,7 @@ git clone <better repo> ~/.dsh/skills/better-awesome-sjtu-canvas-ppt
 ### ② 手动跑后半程
 
 ```bash
-SKILL=~/.dsh/skills/lecture-to-obsidian
+SKILL=~/.dsh/skills/lecture-to-study
 BETTER=~/.dsh/skills/better-awesome-sjtu-canvas-ppt
 VAULT="<你的 Obsidian 库根>"
 PROFILE="$VAULT/_scripts/vault-profile.json"      # 由 better 的 build_vault_profile.py 生成

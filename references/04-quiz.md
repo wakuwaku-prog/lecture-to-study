@@ -654,7 +654,7 @@ python "$SKILL/scripts/check_quiz_rules.py" --list-rules
 ### 9.1 规则与生成（本层自己的四个 fixture）
 
 ```bash
-SKILL="$HOME/.dsh/skills/lecture-to-obsidian"
+SKILL="$HOME/.dsh/skills/lecture-to-study"
 T="/tmp/lto-quiz-selftest"     # 或任意临时目录
 
 # 1) 违规样例：六条规则必须都报出来，且报出具体题目 id

@@ -1,5 +1,5 @@
 ---
-name: lecture-to-obsidian
+name: lecture-to-study
 description: >
   Obsidian 知识库的**后半程**：把已经整理好的课堂素材变成能学的东西——
   ① AI 讲解（Obsidian md 为唯一真源，单文件 HTML 按需派生）；
@@ -11,7 +11,7 @@ description: >
   "出随堂题""出课后题""生成题库""检查讲解""质量门"时使用。
 ---
 
-# lecture-to-obsidian — 讲解 · 考题 · 质量门
+# lecture-to-study — 讲解 · 考题 · 质量门
 
 本 skill 是流水线的**后半程**。前半程（采集 + 笔记）在 `better-awesome-sjtu-canvas-ppt`：
 

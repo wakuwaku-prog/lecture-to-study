@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""check_quiz_rules.py — lecture-to-obsidian L4 出题规则检查器。
+"""check_quiz_rules.py — lecture-to-study L4 出题规则检查器。
 
 把《心理与精神健康》AGENTS.md §7「随堂测验的出题规则」逐条实现成**可执行检查**，
 每条违例都报出**具体题目 id**（必要时连选项 id 一起报）。

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""gen_quiz_bank.py — lecture-to-obsidian L4 考题层生成器。
+"""gen_quiz_bank.py — lecture-to-study L4 考题层生成器。
 
 从**题源**（`.quizsrc.json` 或 `.quizsrc.md`）生成题库 JSON v1，并**同源**输出三种形态：
 

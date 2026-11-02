@@ -8,7 +8,7 @@
 > 必须单独跑——**「总门 PASS」不等于「题库合规」**。详见 `docs/PLAN.md` §14。
 
 ```bash
-SKILL="$HOME/.dsh/skills/lecture-to-obsidian"
+SKILL="$HOME/.dsh/skills/lecture-to-study"
 python "$SKILL/scripts/check_all.py" --vault "<vault root>" --work "<work dir>"
 ```
 

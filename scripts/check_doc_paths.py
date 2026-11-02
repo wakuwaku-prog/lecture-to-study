@@ -32,7 +32,7 @@ from pathlib import PurePath
 TRACKED_DIRS = ("scripts", "templates", "schemas", "references", "adapters", "docs", "pilot")
 
 # 允许出现在路径前的前缀（会先被剥掉）
-PREFIX_RE = re.compile(r"(?:\$SKILL/|\$HOME/\.dsh/skills/lecture-to-obsidian/|<skill>/|\.\./|\./)")
+PREFIX_RE = re.compile(r"(?:\$SKILL/|\$HOME/\.dsh/skills/lecture-to-study/|<skill>/|\.\./|\./)")
 
 # 否定语境标记：同行出现这些词，说明该处是在说「这个路径不存在 / 没交付」，不算承诺
 NEGATIVE_MARKERS = (

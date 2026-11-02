@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""构建单文件讲解 HTML（lecture-to-obsidian / L3 讲解层）。
+"""构建单文件讲解 HTML（lecture-to-study / L3 讲解层）。
 
 md 是唯一真源；本脚本只把「源片段」编译成**单文件、离线可看**的 HTML：
 图片按画像的长边上限等比缩小后 base64 内嵌，CSS/JS 全部来自 templates/explainer.html。

@@ -1,4 +1,4 @@
-# lecture-to-obsidian — 实施方案
+# lecture-to-study — 实施方案
 
 > 目标：把「视频学习平台上的一节课」变成「Obsidian 知识库里能复习、能自测的一份东西」。
 > 覆盖采集 → 笔记 → AI 讲解 → 课后考题 → 质量门全链路，平台可插拔。
@@ -242,7 +242,7 @@ L5 质量门         check_all.py（链接/结构/出题/HTML资产/manifest/Git
 ## 9. 目录结构
 
 ```
-~/.dsh/skills/lecture-to-obsidian/
+~/.dsh/skills/lecture-to-study/
 ├── SKILL.md                      # 路由 + 铁律 + 契约（唯一总是加载的文件）
 ├── docs/PLAN.md                  # 本文件
 ├── references/                   # 按层按需加载
@@ -440,14 +440,14 @@ L0–L2（采集 + 笔记）的证据在**平台和知识库**里；L3–L5（�
 
 ### 14.2 现在的边界
 
-| | `better-awesome-sjtu-canvas-ppt` | `lecture-to-obsidian` |
+| | `better-awesome-sjtu-canvas-ppt` | `lecture-to-study` |
 |---|---|---|
 | 层 | L0 采集 / L1 素材 / L2 笔记 | L3 讲解 / L4 考题 / L5 质量门 |
 | 产物 | manifest、vault-profile、L##/P##/V##/Concept | 讲解 md + HTML、题库 JSON / 围栏 / md |
 | 契约 | manifest 与 vault-profile 两份 schema | quiz-bank 一份 schema |
 | 文档 | 笔记规范、采集契约 | 讲解、考题、质量门 |
 
-**层间只认两份契约**：`lecture-to-obsidian` 不解析平台响应，也不重算时间码与页码。
+**层间只认两份契约**：`lecture-to-study` 不解析平台响应，也不重算时间码与页码。
 
 ### 14.3 迁移清单（已执行）
 

@@ -586,7 +586,7 @@ note-structure    FAIL    demoted=21 errors=1 notes=14
 > **真实画像对心理库用 `heading-alias`** —— 所以真实画像下 L02/L08 缺总结小节
 > 会照常报 ERROR（那是真问题，见 §1.5 的更正）。
 
-### 真实画像的端到端实测（`better-awesome-sjtu-canvas-ppt/docs/pilot/e2e-L08/vault-profile.json`）
+### 真实画像的端到端实测（当时产物 `better-awesome-sjtu-canvas-ppt/docs/pilot/e2e-L08/vault-profile.json`，2026-11 已移除）
 
 ```
 检查项 61 条；ERROR 2，WARN 1，INFO 26
@@ -683,7 +683,7 @@ L02 / L03 / L04 / L05 / L06 / L07 / L08 **全部 PASS**（ERROR 0）。
 L03 与 L07 各 1 条 WARN：页面没写「内嵌 N 张」声明，无法核对图数
 （可用 `--declared-images` 补）。
 
-### 基准样本 `better-awesome-sjtu-canvas-ppt/docs/pilot/L08.manifest.json`
+### 基准样本（原 `better-awesome-sjtu-canvas-ppt/docs/pilot/L08.manifest.json`，2026-11 已移除）
 
 ```
 检查项 537 条；ERROR 0，WARN 1，INFO 15

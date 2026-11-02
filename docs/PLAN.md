@@ -342,7 +342,7 @@ L5 质量门         check_all.py（链接/结构/出题/HTML资产/manifest/Git
 
 **方法**：在写任何采集/生成代码之前，先用手工造的 L08 `manifest.json` 去压 schema。凡是 schema 表达不了的，就是契约错了。五处全部命中——如果等代码写完才发现，就要返工五层。
 
-基准 fixture：`better-awesome-sjtu-canvas-ppt/docs/pilot/L08.manifest.json`（35 页 / 2 节次 / 38 条放映记录，已通过 `manifest.schema.json` 校验；数据全部取自 P08 的放映记录表与页脚对照表）。
+基准 fixture（原 `better-awesome-sjtu-canvas-ppt/docs/pilot/L08.manifest.json`，2026-11 因含未公开课件的逐页标题已移除；35 页 / 2 节次 / 38 条放映记录，已通过 `manifest.schema.json` 校验；数据全部取自 P08 的放映记录表与页脚对照表）。
 
 | # | 我原本的假设 | L08 的真实素材 | 契约改成 |
 |---|---|---|---|
@@ -358,7 +358,7 @@ L5 质量门         check_all.py（链接/结构/出题/HTML资产/manifest/Git
 
 ## 12.6 端到端试点结果（L08，2026-10-19）
 
-产物落在 `better-awesome-sjtu-canvas-ppt/docs/pilot/e2e-L08/`（可复核、可重跑）：
+产物原落在 `better-awesome-sjtu-canvas-ppt/docs/pilot/e2e-L08/`（2026-11 已移除：含 7 张未公开课件页图）；下表为当次实测结果：
 
 | 环节 | 产物 | 实测结果 |
 |---|---|---|
@@ -456,7 +456,7 @@ L0–L2（采集 + 笔记）的证据在**平台和知识库**里；L3–L5（�
 `schemas/{manifest,vault-profile}.schema.json`、全部笔记模板、
 原来的两份长文档：采集契约（移到 better，改名为 ACQUISITION）、
 笔记规范（与 better 已有的笔记整理说明**合并成一份**）、
-整个试点目录一起搬（含基准 fixture 与端到端产物），现位于 `better-awesome-sjtu-canvas-ppt/docs/pilot/`。
+整个试点目录一起搬（含基准 fixture 与端到端产物），原位于 `better-awesome-sjtu-canvas-ppt/docs/pilot/`；该目录 2026-11 已移除，不再随仓库分发。
 
 留在本 skill：`build_explainer_html.py`、`gen_quiz_bank.py`、`check_html_assets.py`、
 `check_quiz_rules.py`、`check_all.py`、`check_builder_alignment.py`、`check_doc_paths.py`、
